@@ -1,1 +1,23 @@
 dataset/
+# Virtual environment
+venv/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Model files (large, can be huge - regenerate via train.py instead of pushing)
+models/
+
+# Hugging Face cache (if any got created locally)
+huggingface_cache/
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# VS Code settings (optional, keep if personal)
+.vscode/
